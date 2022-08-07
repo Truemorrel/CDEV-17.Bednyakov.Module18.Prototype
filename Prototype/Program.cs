@@ -24,6 +24,7 @@ namespace Prototype
 
             clone = myObject.Clone();
             clone.GetId();
+            // Console.ReadLine();
         }
     }
 }

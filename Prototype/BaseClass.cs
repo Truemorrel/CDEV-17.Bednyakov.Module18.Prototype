@@ -3,18 +3,15 @@ namespace Prototype
 {
     public abstract class BaseClass
     {
-        private int _Id;
-
-        public int Id { get => _Id; }
+        public int Id { get; }
         public BaseClass(int id)
         {
-            _Id = id;
-            Console.WriteLine($"Создан объект с Id={Id}");
+            Id = id;
         }
 
         public void GetId()
         {
-            Console.WriteLine(Id); ;
+            Console.WriteLine($"Создан объект с Id {Id}");
         }
 
         public abstract BaseClass Clone();

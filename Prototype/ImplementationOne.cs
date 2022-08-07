@@ -2,8 +2,6 @@
 {
     internal class ImplementationOne : BaseClass
     {
-        private int v;
-
         public ImplementationOne(int id) : base (id)
         {
         }
